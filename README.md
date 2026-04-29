@@ -10,7 +10,7 @@ The server hosting the bot shopuld have:
 --------------------------------------------------------------------------------------------------------------------
 Starting Docker
 1. Run:  sudo systemctl start docker
-2. To download the project from the github you need to clone it. git clone https://github.com/FalseRank/CPT-273-Final-Project-Card-Game-Discord-Bot
+2. To download the project from the github you need to clone it. git clone https://github.com/FalseRank/Card-Game-Bot.git
 3. Builder the Docker Container: Build Docker image in bash: docker build -t card-game-discord-bot
 4. To start the bot run the following in bash: docker run --env-file .env card-game-discord-bot
 5. Running the bot 24/7 In bash run: docker run -d -env-file .env card-game-discord-bot
