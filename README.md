@@ -1,4 +1,4 @@
-The Card Game bot is a school project discord bot. The objective of this bot is to help people get to know one another within the discord classroom by providing some easy accessible card games such as blackjack, higher or lower, and war. The Card Game bot is written in Python code using discord.py libraries and was designed to run on Docker for easy deployment.
+The Card Game bot is a school project discord bot made by Hayden Allen and Zarin Deane. The objective of this bot is to help people get to know one another within the discord classroom by providing some easy accessible card games such as blackjack, higher or lower, and war. The Card Game bot is written in Python code using discord.py libraries and was designed to run on Docker for easy deployment.
 
 --------------------------------------------------------------------------------------------------------------------
 System Requirements
@@ -6,7 +6,12 @@ The server hosting the bot shopuld have:
 -Python 3.10+
 -Docker
 -Git (to install proper dependencies run: sudo apt update sudo apt install python3 python3-pip git docker.io)
-
+--------------------------------------------------------------------------------------------------------------------
+Bot Permissions
+-Send Messages
+-Read Message history
+-Use external emojis
+-Use embedded activities
 --------------------------------------------------------------------------------------------------------------------
 Starting Docker
 1. Run:  sudo systemctl start docker
